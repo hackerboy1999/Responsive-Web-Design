@@ -1,0 +1,31 @@
+#title {
+  text-align: center;
+}
+
+body {
+  text-align: center;
+}
+#dropdown {
+  display: block;
+  margin-left: 570px;
+}
+
+label {
+  display: block;
+}
+input {
+  margin: 15px;
+  padding: 5px;
+  display: inline;
+}
+
+p1 {
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  display: block;
+}
+
+input[type="radio"] {
+  display: inline;
+}

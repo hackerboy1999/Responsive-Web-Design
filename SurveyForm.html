@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang ="en">
+  <link rel="stylesheet" href="SurveyForm.css">
+  <body>
+    <h1 id="title">
+      Registration Form
+    </h1>
+    <p id="description">Enter your details to register</p>
+    <form id="survey-form">
+      <label id="name-label">Enter your name: <input type="text" name="firstName" id="name" required placeholder="John Apples"/></label>
+</br>
+      <label id="email-label">Enter your email address: <input type="email" id="email" required placeholder="Enter your email address"/></label>
+</br>
+      <label id="number-label">Enter your number: <input type="number" id="number" min="0" max="9" placeholder="+27"/></label>
+
+<p1>Select your country of origin: </p1>
+<select id="dropdown">
+<option>South Africa</option>
+<option>Other regions</option>
+</select>
+
+<p1>Select your race: </p1>
+<input type="radio" name="button1" value="yes"/>African
+<input type="radio" name="button2" value="no"/>Caucasian
+<input type="radio" name="button1" value="yes"/>Indian
+<input type="radio" name="button2" value="no"/>Colored
+
+<p1>Select your sex: </p1>
+<input type="checkbox" value="box1">Male</input>
+<input type="checkbox" value="box2">Female</input>
+
+<p1>Add any comments you may have: </p1>
+<textarea></textarea>
+</br> </br>
+<input type="submit" id="submit"></input>
+    </form>
+  </body>
+<html>
